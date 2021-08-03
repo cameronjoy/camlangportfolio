@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from './Nav.jsx'
+import About from './About.jsx'
+import Projects from './Projects'
+import Contact from './Contact.jsx'
+import Home from './Home.jsx'
+import { useEffect, useState } from 'react'
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
 
 function App() {
+  const [offsetY, setOffsetY] = useState(0)
+  const handleScroll = () => {
+    setOffsetY(window.pageYOffset)
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav/>
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
     </div>
+    
+
+
   );
 }
 
