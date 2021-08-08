@@ -1,44 +1,11 @@
-/* div{
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
-}
-
-h1{
-  margin: 0;
-}
-
-
-
-.home-background{
+.tsparticles-canvas-el {
+  position: absolute;
   height: 100vh;
-  background-image: url('./Abstract-Gradient-8.png');
-  background-size: 100vw;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100vh;
+  z-index: 1;
 }
 
-.about-background{
-  height: 100vh;
-  background-image: url('./Abstract-Gradient-5.png');
-  background-size: 100vw;
-  text-align: center;
+.profile {
+  width: 300px;
+  
 }
-
-.projects-background{
-  height: 100vh;
-  background-image: url('./Abstract-Gradient-4.png');
-  background-size: 100vw;
-  text-align: center;
-}
-
-.contact-background{
-  height: 100vh;
-  background-image: url('./Abstract-Gradient-6.png');
-  background-size: 100vw;
-  text-align: center;
-} */

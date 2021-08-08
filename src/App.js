@@ -6,22 +6,23 @@ import Home from './Home.jsx'
 import { useEffect, useState } from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-
-
+import Particles from 'react-particles-js'
 
 function App() {
-  const [offsetY, setOffsetY] = useState(0)
-  const handleScroll = () => {
-    setOffsetY(window.pageYOffset)
-  }
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll)
-
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
   return (
     <div>
+      <Particles 
+      params={{
+        particles: {
+          number: {
+            value: 30,
+            density: {
+              enable: true,
+              value_area: 900
+            }
+          }
+        }
+      }}/>
       <Nav/>
       <Home />
       <About />
