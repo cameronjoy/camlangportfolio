@@ -17,6 +17,7 @@
     "react-scripts": "4.0.3",
     "react-typing-animation": "^1.6.2",
     "reactstrap": "^8.9.0",
+    "tsparticles": "^1.33.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
