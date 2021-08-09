@@ -32,7 +32,7 @@ export default function About() {
                 <Col md={6}>
                 <Slide right>
                     <h5>
-                    I’m a results driven software engineer looking to work with a company where I can grow and challenge myself! I’m adaptable and love to solve problems. In my freetime youll probably find me outside reading or drawing :)
+                    I’m a results driven software engineer looking to work with a company where I can grow and challenge myself! I’m adaptable and love to solve problems. In my freetime you can find me outside reading or drawing!
                     </h5>
                     <div>
                         <h3 style={{textAlign: 'center'}}>
