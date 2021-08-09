@@ -4,7 +4,7 @@ export default function Home() {
     return(
         <section
         className='d-flex flex-column justify-content-center align-items-center '
-        style={{padding: '45vh 0'}}
+        style={{padding: '45vh 0', color: 'white'}}
         id="home">
 
             <h1>

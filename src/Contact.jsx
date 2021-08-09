@@ -8,7 +8,7 @@ export default function Contact() {
         <section className=''
         style={{height: '100vh', textAlign: 'center'}}
         id="contact">
-            <h1 style={{paddingTop:'40vh'}}>Get in touch!</h1>
+            <h1 style={{paddingTop:'40vh', color:'white'}}>Get in touch!</h1>
             <p>camlangdev@gmail.com</p>
            
             <ListGroup horizontal
